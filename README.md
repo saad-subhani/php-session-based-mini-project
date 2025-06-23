@@ -1,18 +1,14 @@
 # 🔐 Role-Based Access Web App (PHP + MySQL + AJAX)
 A role-based access web app built with PHP, MySQL, and AJAX. Features secure login, session handling, and three roles: Admin, Agent, and User. Admins manage users and agents, with real-time updates via AJAX. A foundational full-stack project focused on access control and UX.
 
----
 
-````markdown
 ## 🛠️ Setup & Installation
 
 Follow these steps to run the project locally:
 
 1. **Clone the Repository**
-
-   ```bash
    git clone https://github.com/saad-subhani/php-session-based-mini-project.git
-````
+
 
 Or download the ZIP file and extract it into your local server directory.
 
@@ -27,7 +23,7 @@ Or download the ZIP file and extract it into your local server directory.
 
 4. **Import the Database**
 
-   * Go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+   * Go to http://localhost/phpmyadmin
    * Click the **Import** tab (no need to create the database manually)
    * Upload and import the `database.sql` file provided in the project root
    * It will automatically create and use a database named `phptask`
@@ -53,9 +49,9 @@ Use the following test accounts:
 
 | Role  | Email                                     | Password |
 | ----- | ----------------------------------------- | -------- |
-| Admin | [admin@gmail.com](mailto:admin@gmail.com) | 123      |
-| Agent | [agent@gmail.com](mailto:agent@gmail.com) | 123      |
-| User  | [user@gmail.com](mailto:user@gmail.com)   | 123      |
+| Admin | admin@gmail.com                           | 123      |
+| Agent | agent@gmail.com                           | 123      |
+| User  | user@gmail.com                            | 123      |
 
  ⚠️ Important Notes:
 
